@@ -10,10 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var numberOnScreen:Double = 0;
-    var previousNumber:Double = 0;
-    var performingMath = false
-    var  operation = 0;
+    @objc var numberOnScreen:Double = 0;
+    @objc var previousNumber:Double = 0;
+    @objc var performingMath = false
+    @objc var  operation = 0;
     
     
     @IBOutlet weak var label: UILabel!
